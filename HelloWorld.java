@@ -4,7 +4,11 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello World");
+		String message = "Hello World!";
+		String words = "Java forever";
+		String space = " ";
+				
+		System.out.println(message + space + words);
 
 	}
 
