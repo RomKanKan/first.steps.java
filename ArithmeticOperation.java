@@ -4,9 +4,11 @@ public class ArithmeticOperation {
 
 	public static void main(String[] args) {
 		
-		float i = 6;
-		float j = 7;
-		float answer = i / j;
+		int i = 6;
+		int j = 7;
+		int HugeNumber = 521124244;
+		
+		int answer = HugeNumber % i;
 		
 		System.out.println(answer);
 
